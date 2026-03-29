@@ -1,0 +1,20 @@
+meta:
+  description: 在香港快速完成大小任務與跑腿。
+
+ui:
+  privacy_policy: 私隱政策
+  terms_of_use: 使用條款
+  switch_to_zh_hk: 中文（香港）
+  switch_to_en: English
+
+home:
+  badge: Available on iOS and Android
+  title: JobMonkeyGO
+  tagline: 在香港，最簡單直接的方式，幫你快速完成大小任務與跑腿。
+  app_store_aria: 在 App Store 下載
+  app_store_sub: Download on the
+  app_store_text: App Store
+  google_play_aria: 在 Google Play 下載
+  google_play_sub: Get it on
+  google_play_text: Google Play
+  screenshot_alt: JobMonkeyGO 應用程式截圖

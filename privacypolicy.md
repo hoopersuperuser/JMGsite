@@ -1,4 +1,7 @@
 ---
+lang: en
+permalink: /privacypolicy/
+alternate_url: /zh-hk/privacypolicy/
 ---
 <div class="legal-page">
   <h1>Privacy Policy</h1>

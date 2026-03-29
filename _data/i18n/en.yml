@@ -1,0 +1,20 @@
+meta:
+  description: Get tasks and errands done quickly in Hong Kong.
+
+ui:
+  privacy_policy: Privacy Policy
+  terms_of_use: Terms of Use
+  switch_to_zh_hk: 中文（香港）
+  switch_to_en: English
+
+home:
+  badge: Available on iOS and Android
+  title: JobMonkeyGO
+  tagline: The easiest way to get tasks and errands done quickly in Hong Kong.
+  app_store_aria: Download on the App Store
+  app_store_sub: Download on the
+  app_store_text: App Store
+  google_play_aria: Get it on Google Play
+  google_play_sub: Get it on
+  google_play_text: Google Play
+  screenshot_alt: JobMonkeyGO app screenshot

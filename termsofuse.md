@@ -1,4 +1,7 @@
 ---
+lang: en
+permalink: /termsofuse/
+alternate_url: /zh-hk/termsofuse/
 ---
 <div class="legal-page">
   <h1>Terms of Service</h1>
