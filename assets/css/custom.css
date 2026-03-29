@@ -1,57 +1,13 @@
 /* ================================================================
-   Top Navigation
-   ================================================================ */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--pico-muted-border-color);
-  padding: 0 !important;
-}
-
-.top-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  height: 64px;
-}
-
-.nav-brand {
-  font-family: "Roboto Slab", serif;
-  font-weight: 800;
-  font-size: 1.2rem;
-  color: var(--pico-primary);
-  text-decoration: none;
-}
-
-.nav-links {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a {
-  font-size: 0.875rem;
-  color: var(--pico-muted-color);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.nav-links a:hover {
-  color: var(--pico-primary);
-}
-
-/* ================================================================
    Main — let sections control their own spacing
    ================================================================ */
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(255, 117, 31, 0.08), transparent 28%),
+    linear-gradient(180deg, #fffdf8 0%, #ffffff 38%, #fff8f2 100%);
+}
+
 main {
   padding: 0;
 }
@@ -61,7 +17,7 @@ main {
    ================================================================ */
 .hero {
   text-align: center;
-  padding: 5rem 1.5rem 2rem;
+  padding: 4.5rem 1.5rem 2rem;
   max-width: 720px;
   margin: 0 auto;
 }
@@ -101,11 +57,13 @@ main {
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .badge-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.65rem;
   padding: 0.8rem 1.5rem;
   border-radius: 14px;
@@ -162,7 +120,7 @@ main {
 }
 
 .screenshot img {
-  max-width: 300px;
+  max-width: min(320px, 82vw);
   width: 100%;
   border-radius: 24px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12), 0 4px 16px rgba(0, 0, 0, 0.06);
@@ -216,6 +174,30 @@ footer p {
   margin-bottom: 0.5rem;
 }
 
+.legal-page h2 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+}
+
+.legal-page p,
+.legal-page li {
+  color: var(--pico-color);
+  line-height: 1.75;
+}
+
+.legal-page ul {
+  margin-bottom: 1.25rem;
+}
+
+.legal-page strong {
+  color: var(--pico-primary);
+}
+
+.legal-page a {
+  word-break: break-word;
+}
+
 .legal-meta {
   color: var(--pico-muted-color);
   font-size: 0.9rem;
@@ -229,18 +211,45 @@ footer p {
    ================================================================ */
 @media (max-width: 575px) {
   .hero {
-    padding-top: 3.5rem;
+    padding-top: 3.25rem;
   }
+
   .hero h1 {
     font-size: 2.75rem !important;
   }
+
   .tagline {
     font-size: 1.05rem;
+  }
+
+  .download-buttons {
+    flex-direction: column;
+  }
+
+  .badge-btn {
+    width: min(100%, 320px);
+    margin: 0 auto;
+  }
+
+  footer {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .legal-page {
+    padding: 2.25rem 1rem 4rem;
+  }
+
+  .legal-page h1 {
+    font-size: 2rem !important;
   }
 }
 
 @media (max-width: 360px) {
   .hero h1 {
     font-size: 2.25rem !important;
+  }
+
+  .badge-btn {
+    padding: 0.8rem 1rem;
   }
 }
