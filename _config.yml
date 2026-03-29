@@ -19,5 +19,4 @@ defaults:
       path: ""
     values:
       layout: "default"
-plugins:
-  - jekyll-optional-front-matter
+plugins: []
