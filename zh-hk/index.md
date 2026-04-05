@@ -29,3 +29,28 @@ alternate_url: /
 <section class="screenshot">
   <img src="{{ 'assets/img/mockup.png' | relative_url }}" alt="{{ t.home.screenshot_alt }}">
 </section>
+
+<section class="features">
+  <h2>{{ t.home.features_title }}</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">{{ t.home.feature_1_icon }}</div>
+      <h3>{{ t.home.feature_1_title }}</h3>
+      <p>{{ t.home.feature_1_desc }}</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">{{ t.home.feature_2_icon }}</div>
+      <h3>{{ t.home.feature_2_title }}</h3>
+      <p>{{ t.home.feature_2_desc }}</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">{{ t.home.feature_3_icon }}</div>
+      <h3>{{ t.home.feature_3_title }}</h3>
+      <p>{{ t.home.feature_3_desc }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="data-notice">
+  <p>{{ t.home.data_notice_pre }} <a href="{{ '/zh-hk/privacypolicy/' | relative_url }}">{{ t.home.data_notice_link }}</a>。</p>
+</section>

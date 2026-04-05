@@ -9,6 +9,8 @@ bg_color: light # can be dark, light or auto
 # lime, yellow, amber, pumpkin, orange, sand, grey, zinc, slate. See samples on https://picocss.com/docs/version-picker
 theme_color: orange
 title: JobMonkeyGO
+url: https://jobmonkeygo.com
+baseurl: ""
 description: Get tasks and errands done quickly in Hong Kong.
 keywords: 
 gtag: # Google Analytics tag (e.g. G-A1BCDEFGHI). Please replace it with YOUR tag.
@@ -25,3 +27,15 @@ defaults:
     values:
       layout: "default"
 plugins: []
+
+exclude:
+  - gems
+  - specifications
+  - build_info
+  - extensions
+  - cache
+  - doc
+  - bin
+  - plugins
+  - Gemfile
+  - Gemfile.lock

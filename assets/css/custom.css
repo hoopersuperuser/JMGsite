@@ -175,6 +175,86 @@ footer p {
 }
 
 /* ================================================================
+   Features Section
+   ================================================================ */
+.features {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", var(--pico-font-family);
+  font-weight: 800;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  text-align: left;
+}
+
+.feature-card {
+  background: rgba(255, 117, 31, 0.05);
+  border: 1px solid rgba(255, 117, 31, 0.15);
+  border-radius: 16px;
+  padding: 1.5rem 1.25rem;
+}
+
+.feature-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--pico-color);
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  color: var(--pico-muted-color);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ================================================================
+   Data Notice Section
+   ================================================================ */
+.data-notice {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+  text-align: center;
+}
+
+.data-notice p {
+  font-size: 0.85rem;
+  color: var(--pico-muted-color);
+  line-height: 1.65;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 10px;
+  padding: 0.9rem 1.25rem;
+  margin: 0;
+}
+
+.data-notice a {
+  color: var(--pico-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.data-notice a:hover {
+  text-decoration: underline;
+}
+
+/* ================================================================
    Legal Pages
    ================================================================ */
 .legal-page {
@@ -243,6 +323,10 @@ footer p {
   .badge-btn {
     width: min(100%, 320px);
     margin: 0 auto;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
   }
 
   footer {

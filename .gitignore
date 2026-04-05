@@ -2,3 +2,14 @@ _site
 .jekyll-cache
 Gemfile
 Gemfile.lock
+
+# Local Bundler/RubyGems install tree (created during local dev setup)
+.ruby-version
+bin/
+build_info/
+cache/
+doc/
+extensions/
+gems/
+plugins/
+specifications/

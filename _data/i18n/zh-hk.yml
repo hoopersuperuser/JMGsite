@@ -18,3 +18,15 @@ home:
   google_play_sub: Get it on
   google_play_text: Google Play
   screenshot_alt: JobMonkeyGO 應用程式截圖
+  features_title: 你可以做甚麼
+  feature_1_icon: "📋"
+  feature_1_title: 發佈任務
+  feature_1_desc: Boss 設定價錢、選擇香港地區並描述任務，即時發佈。
+  feature_2_icon: "🔍"
+  feature_2_title: 瀏覽及競標
+  feature_2_desc: Jobber 發掘附近任務，提交競標，等待 Boss 接受。
+  feature_3_icon: "💬"
+  feature_3_title: 即時溝通並完成任務
+  feature_3_desc: 即時通訊讓雙方保持聯繫，完成後互相留下評價。
+  data_notice_pre: "JobMonkeyGO 僅透過 Google、Facebook 或 Apple 登入取得你的姓名及電郵地址，用以建立及管理你的帳戶。詳情請參閱"
+  data_notice_link: 私隱政策

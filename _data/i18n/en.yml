@@ -18,3 +18,15 @@ home:
   google_play_sub: Get it on
   google_play_text: Google Play
   screenshot_alt: JobMonkeyGO app screenshot
+  features_title: What you can do
+  feature_1_icon: "📋"
+  feature_1_title: Post a Task
+  feature_1_desc: Bosses set a price, choose a Hong Kong district, and describe the task — posted in seconds.
+  feature_2_icon: "🔍"
+  feature_2_title: Browse & Bid
+  feature_2_desc: Jobbers discover nearby tasks, submit a bid, and get hired by a Boss.
+  feature_3_icon: "💬"
+  feature_3_title: Chat & Complete
+  feature_3_desc: Real-time messaging keeps Boss and Jobber in sync. After completion, both sides leave a review.
+  data_notice_pre: "JobMonkeyGO requests your name and email address — via Google, Facebook, or Apple sign-in — solely to create and manage your account. For full details see our"
+  data_notice_link: Privacy Policy
