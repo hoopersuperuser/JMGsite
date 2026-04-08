@@ -11,6 +11,7 @@ Built with [Jekyll](https://jekyllrb.com) and [Pico CSS](https://picocss.com).
 | Page | URL | Description |
 |---|---|---|
 | Home | `/` | Hero, features overview, download links |
+| Contact | `/contact/` | Email contact link |
 | Privacy Policy | `/privacypolicy/` | PDPO-compliant privacy policy |
 | Terms of Use | `/termsofuse/` | Terms and conditions |
 | 主頁 (ZH-HK) | `/zh-hk/` | Traditional Chinese home |
@@ -74,6 +75,7 @@ assets/
     custom.css       # Layout, components, responsive styles
   img/               # App screenshots, favicon, etc.
 index.md             # English homepage
+contact.md           # English contact page
 privacypolicy.md     # English privacy policy
 termsofuse.md        # English terms of use
 zh-hk/               # Traditional Chinese pages (mirrors root structure)
