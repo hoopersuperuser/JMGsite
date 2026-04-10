@@ -82,9 +82,11 @@
     <footer>
       <nav>
         {% if current_lang == 'zh-hk' %}
+        <a href="{{ '/zh-hk/contact' | relative_url }}">{{ t.ui.contact }}</a>
         <a href="{{ '/zh-hk/privacypolicy' | relative_url }}">{{ t.ui.privacy_policy }}</a>
         <a href="{{ '/zh-hk/termsofuse' | relative_url }}">{{ t.ui.terms_of_use }}</a>
         {% else %}
+        <a href="{{ '/contact' | relative_url }}">{{ t.ui.contact }}</a>
         <a href="{{ '/privacypolicy' | relative_url }}">{{ t.ui.privacy_policy }}</a>
         <a href="{{ '/termsofuse' | relative_url }}">{{ t.ui.terms_of_use }}</a>
         {% endif %}

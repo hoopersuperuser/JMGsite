@@ -15,6 +15,7 @@ Built with [Jekyll](https://jekyllrb.com) and [Pico CSS](https://picocss.com).
 | Privacy Policy | `/privacypolicy/` | PDPO-compliant privacy policy |
 | Terms of Use | `/termsofuse/` | Terms and conditions |
 | 主頁 (ZH-HK) | `/zh-hk/` | Traditional Chinese home |
+| 聯絡我們 (ZH-HK) | `/zh-hk/contact/` | Traditional Chinese contact |
 | 私隱政策 (ZH-HK) | `/zh-hk/privacypolicy/` | Traditional Chinese privacy policy |
 | 使用條款 (ZH-HK) | `/zh-hk/termsofuse/` | Traditional Chinese terms of use |
 
